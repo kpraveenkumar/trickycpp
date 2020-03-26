@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.10)
+project(trickcpp)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_FLAGS "-O3 -std=c++17 -pthread")
+add_executable(check_two_numbers_equal src/check_equal_without_relational_operator.cpp)
