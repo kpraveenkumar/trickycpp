@@ -6,3 +6,4 @@ add_executable(check_two_numbers_equal src/check_equal_without_relational_operat
 add_executable(print_nos_without_semicolon src/print_nos_without_semicolon.cpp)
 add_executable(endian_computer src/endian_computer.cpp)
 add_executable(divide_by_four src/divide_by_four.cpp)
+add_executable(verify_if_block src/verify_if_block.cpp)
