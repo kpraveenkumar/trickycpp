@@ -2,12 +2,9 @@
 using namespace std;
 
 constexpr auto N{10};
-int main()
-{
-    static int x=1;
-    if(cout<<x<<" "&& ++x<N && main())
-    {
-    
-    }
-    return 0;
+int main() {
+  static int x = 1;
+  if (cout << x << " " && ++x < N && main()) {
+  }
+  return 0;
 }
